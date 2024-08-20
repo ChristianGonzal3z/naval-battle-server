@@ -1,5 +1,5 @@
 import express from 'express';
-import { createServer } from 'http';
+import { createServer } from 'https';
 import { Server } from 'colyseus';
 import { monitor } from '@colyseus/monitor';
 import { GameRoom } from "./src/game-room";
@@ -24,4 +24,4 @@ gameServer.onShutdown(function(){
 
 gameServer.listen(port);
 
-console.log(`Listening on http://localhost:${ port }`);
+console.log(`Listening on https://localhost:${ port }`);
