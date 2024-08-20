@@ -1,5 +1,5 @@
 import express from 'express';
-import { createServer } from 'https';
+import { createServer } from 'http';
 import { Server } from 'colyseus';
 import { monitor } from '@colyseus/monitor';
 import { GameRoom } from "./src/game-room";
